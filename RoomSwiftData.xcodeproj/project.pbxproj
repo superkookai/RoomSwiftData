@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF5DB66B2D7FF2130060E328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5DB6652D7FF2130060E328 /* Preview Assets.xcassets */; };
+		EF5DB66C2D7FF2130060E328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5DB6672D7FF2130060E328 /* Assets.xcassets */; };
+		EF5DB66D2D7FF2130060E328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DB6682D7FF2130060E328 /* ContentView.swift */; };
+		EF5DB66E2D7FF2130060E328 /* RoomSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DB6692D7FF2130060E328 /* RoomSwiftDataApp.swift */; };
+		EF5DB6712D7FF2310060E328 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DB6702D7FF2310060E328 /* Room.swift */; };
+		EF5DB6732D7FF3720060E328 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DB6722D7FF3720060E328 /* UIColorValueTransformer.swift */; };
+		EF5DB6752D8008AE0060E328 /* ColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DB6742D8008AE0060E328 /* ColorTransformer.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF5DB6542D7FF2080060E328 /* RoomSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5DB6652D7FF2130060E328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF5DB6672D7FF2130060E328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5DB6682D7FF2130060E328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF5DB6692D7FF2130060E328 /* RoomSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSwiftDataApp.swift; sourceTree = "<group>"; };
+		EF5DB6702D7FF2310060E328 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		EF5DB6722D7FF3720060E328 /* UIColorValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorValueTransformer.swift; sourceTree = "<group>"; };
+		EF5DB6742D8008AE0060E328 /* ColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF5DB6562D7FF2080060E328 /* RoomSwiftData */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RoomSwiftData;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF5DB6512D7FF2080060E328 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		EF5DB64B2D7FF2080060E328 = {
 			isa = PBXGroup;
 			children = (
-				EF5DB6562D7FF2080060E328 /* RoomSwiftData */,
+				EF5DB66A2D7FF2130060E328 /* RoomSwiftData */,
 				EF5DB6552D7FF2080060E328 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,36 @@
 				EF5DB6542D7FF2080060E328 /* RoomSwiftData.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5DB6662D7FF2130060E328 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF5DB6652D7FF2130060E328 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF5DB66A2D7FF2130060E328 /* RoomSwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				EF5DB66F2D7FF2250060E328 /* Model */,
+				EF5DB6682D7FF2130060E328 /* ContentView.swift */,
+				EF5DB6692D7FF2130060E328 /* RoomSwiftDataApp.swift */,
+				EF5DB6672D7FF2130060E328 /* Assets.xcassets */,
+				EF5DB6662D7FF2130060E328 /* Preview Content */,
+			);
+			path = RoomSwiftData;
+			sourceTree = "<group>";
+		};
+		EF5DB66F2D7FF2250060E328 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF5DB6702D7FF2310060E328 /* Room.swift */,
+				EF5DB6722D7FF3720060E328 /* UIColorValueTransformer.swift */,
+				EF5DB6742D8008AE0060E328 /* ColorTransformer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +98,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF5DB6562D7FF2080060E328 /* RoomSwiftData */,
 			);
 			name = RoomSwiftData;
 			packageProductDependencies = (
@@ -109,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5DB66B2D7FF2130060E328 /* Preview Assets.xcassets in Resources */,
+				EF5DB66C2D7FF2130060E328 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5DB6752D8008AE0060E328 /* ColorTransformer.swift in Sources */,
+				EF5DB66D2D7FF2130060E328 /* ContentView.swift in Sources */,
+				EF5DB6732D7FF3720060E328 /* UIColorValueTransformer.swift in Sources */,
+				EF5DB66E2D7FF2130060E328 /* RoomSwiftDataApp.swift in Sources */,
+				EF5DB6712D7FF2310060E328 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

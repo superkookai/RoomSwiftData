@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct RoomSwiftDataApp: App {
+    
+    init() {
+        UIColorValueTransformer.register()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: [Room.self])
         }
     }
 }
+
+
